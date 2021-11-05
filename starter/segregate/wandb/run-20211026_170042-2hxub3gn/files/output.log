@@ -1,0 +1,6 @@
+2021-10-26 17:00:43,899 Downloading and reading artifact
+2021-10-26 17:00:45,927 Splitting data into train, val and test
+2021-10-26 17:00:45,957 Uploading the train dataset to processed_segregated_data.csv_train.csv
+2021-10-26 17:00:46,185 Logging artifact
+2021-10-26 17:00:52,296 Uploading the test dataset to processed_segregated_data.csv_test.csv
+2021-10-26 17:00:52,399 Logging artifact

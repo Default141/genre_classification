@@ -1,0 +1,15 @@
+2021-10-26 17:12:31,714 Downloading and reading train artifact
+wandb: ERROR Project default141/exercise_14 does not contain artifact: "train_data.csv:latest"
+Traceback (most recent call last):
+  File "/home/default/miniconda3/envs/mlflow-259d53ab44a1e9011b0c64ae862f43343c0fc9e5/lib/python3.8/site-packages/wandb/apis/normalize.py", line 24, in wrapper
+    return func(*args, **kwargs)
+  File "/home/default/miniconda3/envs/mlflow-259d53ab44a1e9011b0c64ae862f43343c0fc9e5/lib/python3.8/site-packages/wandb/apis/public.py", line 520, in artifact
+    artifact = Artifact(self.client, entity, project, artifact_name)
+  File "/home/default/miniconda3/envs/mlflow-259d53ab44a1e9011b0c64ae862f43343c0fc9e5/lib/python3.8/site-packages/wandb/apis/public.py", line 2583, in __init__
+    self._load()
+  File "/home/default/miniconda3/envs/mlflow-259d53ab44a1e9011b0c64ae862f43343c0fc9e5/lib/python3.8/site-packages/wandb/apis/public.py", line 3097, in _load
+    raise ValueError(
+ValueError: Project default141/exercise_14 does not contain artifact: "train_data.csv:latest"
+
+During handling of the above exception, another exception occurred:
+

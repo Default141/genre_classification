@@ -1,0 +1,27 @@
+{
+    "os": "Linux-4.4.0-18362-Microsoft-x86_64-with-glibc2.10",
+    "python": "3.8.12",
+    "heartbeatAt": "2021-11-05T07:27:22.186790",
+    "startedAt": "2021-11-05T07:27:20.870051",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--model_export",
+        "model_export:latest",
+        "--test_data",
+        "processed_segregated_data.csv_test.csv:latest"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "starter/evaluate/run.py",
+    "git": {
+        "remote": "https://github.com/Default141/genre_classification.git",
+        "commit": "0d610cafbcf05d9d6a8cededa64bb92b10b11146"
+    },
+    "email": "phoenixbird14@gmail.com",
+    "root": "/home/default/github/genre_classification",
+    "host": "DESKTOP-D4A89AJ",
+    "username": "default",
+    "executable": "/home/default/miniconda3/envs/mlflow-9ad98997f01f10ca95d41cc160bcad3e8dac16f6/bin/python"
+}
